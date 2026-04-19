@@ -1,0 +1,17 @@
+/* The path to picture-in-picture XHTML context */
+@-moz-document url("chrome://global/content/pictureinpicture/player.xhtml") {
+    /* No transitions for all control elements*/
+    #close, #unpip, #controls-bottom, #controls-bottom-gradient, .status-indicators {
+        transition: none !important;
+    }
+
+    /* Toggle visibility based on hover */
+    #controls:not(:hover) #close,
+    #controls:not(:hover) #unpip,
+    #controls:not(:hover) #controls-bottom,
+    #controls:not(:hover) #controls-bottom-gradient,
+    #controls:not(:hover) .status-indicators {
+        opacity: 0 !important;
+        visibility: hidden !important;
+    }
+}
