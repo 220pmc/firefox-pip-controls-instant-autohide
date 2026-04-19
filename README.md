@@ -9,9 +9,11 @@ Instantly hides Firefox Picture-in-Picture controls when not hovering — no fad
 
 ## Preview
 Before:
+
 ![Default](./figures/default.gif)
 
 After:
+
 ![No_delay](./figures/no_delay.gif)
 
 ## Caveats
