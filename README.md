@@ -7,6 +7,13 @@ Instantly hides Firefox Picture-in-Picture controls when not hovering — no fad
 - Controls appear instantly on hover
 - Removes all fade animations and delays
 
+## Preview
+Before:
+![Default](./figures/default.gif)
+
+After:
+![No_delay](./figures/no_delay.gif)
+
 ## Caveats
 - This CSS has only been tested on Firefox ESR 115
 
